@@ -1,13 +1,6 @@
 for _,v in pairs(game.Workspace:GetDescendants()) do
 if v.Name == "Interact" and v.Parent.Name == "Leaf" then
----
-local ServerScriptService = game:GetService("ServerScriptService") -- sound plays when found, run in background until u hear it
-local SoundService = game:GetService("SoundService")
-local sound = Instance.new("Sound")
-sound.SoundId = "rbxassetid://4954030642"
-SoundService:PlayLocalSound(sound)
-----
-local BillboardGui = Instance.new("BillboardGui") --stolen code not mine
+local BillboardGui = Instance.new("BillboardGui")
 local TextLabel = Instance.new("TextLabel")
 BillboardGui.Parent = v.Parent
 BillboardGui.AlwaysOnTop = true
