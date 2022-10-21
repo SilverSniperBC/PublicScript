@@ -13,7 +13,7 @@ TextLabel.Parent = BillboardGui
 TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
 TextLabel.BackgroundTransparency = 1
 TextLabel.Size = UDim2.new(1, 0, 1, 0)
-TextLabel.Text = "Rare here!!!"
+TextLabel.Text = v.RockString.Value.. " Ore Here!!!"
 TextLabel.TextColor3 = Color3.new(0, 5, 0)
 TextLabel.TextScaled = true
 end
