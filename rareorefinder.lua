@@ -8,7 +8,7 @@ BillboardGui.AlwaysOnTop = true
 BillboardGui.LightInfluence = 1
 BillboardGui.Size = UDim2.new(0, 50, 0, 50)
 BillboardGui.StudsOffset = Vector3.new(0, 2, 0)
-game.Players.LocalPlayer.Character:PivotTo(v.Part.CFrame)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(v.Part.Position+Vector3.new(0,5,0)))
 TextLabel.Parent = BillboardGui
 TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
 TextLabel.BackgroundTransparency = 1
